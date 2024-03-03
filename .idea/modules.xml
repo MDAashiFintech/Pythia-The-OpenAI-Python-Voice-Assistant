@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JarvisAI.iml" filepath="$PROJECT_DIR$/.idea/JarvisAI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythiaAI/.idea/PythiaAI.iml" filepath="$PROJECT_DIR$/../PythiaAI/.idea/PythiaAI.iml" />
     </modules>
   </component>
 </project>
