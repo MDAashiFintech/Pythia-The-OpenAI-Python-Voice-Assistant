@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import os
+import webbrowser
 
 def say(text):
     os.system(f"say {text}")
@@ -21,5 +22,8 @@ if __name__ == '__main__':
     say("Hello I am Pythia A.I")
     while True:
         print("Listening...")
-        text = takeCommand()
-        say(text)
+        query = takeCommand()
+        if "open Youtube".lower() in query.lower():
+            webbrowser.open("https://youtube.com")
+            say("Opening Youtube Sir...")
+        say(query)
