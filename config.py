@@ -1,8 +1,9 @@
 # todo: add your own api key of OPEN AI
-apikey = "your own api key"
+apikey = "ur api"
 
 # todo: OpenWeatherMap API key
-openweathermap_api_key = "your own api key"
+openweathermap_api_key = "ur api"
 
 # todo: TimeZoneDB API key for fetching current time
-timezonedb_api_key = "your own api key"
+timezonedb_api_key = "ur api"
+
