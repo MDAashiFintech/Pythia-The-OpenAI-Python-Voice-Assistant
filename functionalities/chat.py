@@ -57,4 +57,4 @@ def ai(prompt):
 
     except Exception as e:
         print("An error occurred:", e)
-        return "Some Error Occurred. Sorry, from Pythia AI"
+        return "Some Error Occurred. Sorry, from Pythia"

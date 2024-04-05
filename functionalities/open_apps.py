@@ -7,7 +7,7 @@ def open_app(app_name):
         "vlc": "/path/to/VLC.app",
         "safari": "/path/to/Safari.app",
 
-        # Add more applications as needed
+
     }
 
     if app_name.lower() in app_paths:
