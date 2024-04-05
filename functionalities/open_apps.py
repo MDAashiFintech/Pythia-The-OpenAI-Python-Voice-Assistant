@@ -6,6 +6,7 @@ def open_app(app_name):
         "facetime": "/System/Applications/FaceTime.app",
         "vlc": "/path/to/VLC.app",
         "safari": "/path/to/Safari.app",
+
         # Add more applications as needed
     }
 
