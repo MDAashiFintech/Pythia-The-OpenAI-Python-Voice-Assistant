@@ -60,3 +60,4 @@ if __name__ == '__main__':
         else:
             chat_response = chat(query, chatStr)
             say(chat_response)
+#gg
