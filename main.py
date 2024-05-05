@@ -48,7 +48,7 @@ if __name__ == '__main__':
             # Call open_music function without any arguments
             say(open_music())
         elif "the time" in query.lower():
-            # Retrieve current time using get_time functions
+            # Retrieve current time using get_time function
             current_time = get_time(city)
             say(current_time)
         elif "current weather" in query.lower():
