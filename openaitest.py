@@ -12,5 +12,5 @@ response = client.completions.create(
   frequency_penalty=0,
   presence_penalty=0
 )
-
+#gg
 print(response.choices[0].text.strip())

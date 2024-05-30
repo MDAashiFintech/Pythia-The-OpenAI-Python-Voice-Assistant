@@ -12,4 +12,4 @@ def open_website(site_name):
         return f"Opening {site_name} Sir..."
     else:
         return f"Sorry, I can't open {site_name}."
-# Check
+# Checks
