@@ -4,7 +4,7 @@ from config import timezonedb_api_key
 
 def format_time(raw_time):
     try:
-        # Convert the raw time string to a datetime object
+        # Convert the raw time string to a datetime objects
         dt_object = datetime.strptime(raw_time, "%Y-%m-%d %H:%M:%S")
 
         # Format the datetime object into a spoken-friendly format
