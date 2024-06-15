@@ -15,4 +15,3 @@ def open_app(app_name):
         return f"Opening {app_name}..."
     else:
         return f"Sorry, I can't open {app_name}."
-# gsdg
