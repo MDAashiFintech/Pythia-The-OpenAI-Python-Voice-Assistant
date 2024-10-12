@@ -18,6 +18,7 @@ def chat(query, chatStr):
             frequency_penalty=0,
             presence_penalty=0
         )
+        # //gg
 
         text = response.choices[0].text.strip()
         chatStr += f"{text}\n"
